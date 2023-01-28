@@ -1,0 +1,149 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;   
+    color: white;
+    height: 75px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hlink{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #F9FAF8;
+}
+
+
+.hlogo, .h1{
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+.hlogo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    background-color:#1F2937;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.s1text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s1img{
+    margin-left: 20px;
+}
+
+.s1btn{
+    width: 100px;
+    background-color: blue;
+    border-radius: 6px;
+    border: none;
+    color:#F9FAF8;
+    height: 30px;
+}
+
+.s1p{
+    width: 200px;
+    color:#F9FAF8;
+}
+
+.s1h{
+    font-weight:bolder;
+    font-size:48px;
+    color: #F9FAF8;
+    width: 300px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.s2h{
+    display: flex;
+    justify-content: center;
+}
+
+.s2i1{
+    width: 200px;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3quote{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    width: 800px;
+}
+
+.s3quoteartist{
+    font-weight: bold;
+}
+
+.section4{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.section42{
+    background-color: blue;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    color:#E5E7EB;
+}
+
+.section4button{
+    margin: 50px;
+    background-color: blue;
+    border-color:#E5E7EB;
+    border-radius: 6px;
+    color:#E5E7EB;
+    border-style:solid;
+    border-width: 1px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.s4text{
+    margin: 30px;
+    padding-left: 80px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    color:#E5E7EB;
+}
